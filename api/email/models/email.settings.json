@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "emails",
+  "info": {
+    "name": "email",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "boolean"
+    },
+    "test": {
+      "type": "richtext"
+    }
+  }
+}

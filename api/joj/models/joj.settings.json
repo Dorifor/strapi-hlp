@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jojs",
+  "info": {
+    "name": "joj"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "joj2": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/emails",
+      "handler": "email.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/emails",
+      "handler": "email.send",
+      "config": {}
+    }
+  ]
+}
